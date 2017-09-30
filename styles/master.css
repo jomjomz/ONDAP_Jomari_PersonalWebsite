@@ -9,7 +9,7 @@ body{
   list-style: none;
   margin: 0 2px;
   padding: 0;
-  margin-left: 150px;
+  margin-left: 30px;
 }
 
 
@@ -19,12 +19,6 @@ body{
    margin-right: 40px;
 }
 
-.whiteTitleBar {
-background-color:#ffffff;
-height:50px;
-padding:10px;
-text-shadow: 1px 1px 5px #909090;
-}
 
 .topnav {
     background: rgba(0, 0, 0, 0.4);
@@ -36,7 +30,7 @@ text-shadow: 1px 1px 5px #909090;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: solid;
     font-size: 30px;
 }
@@ -58,9 +52,10 @@ text-shadow: 1px 1px 5px #909090;
 	width: 550px;
 	background: rgba(0, 0, 0, 0.4);
 	padding: 30px;
+	padding-top: 30px;
 	text-align: center;
 	margin: auto;
-	margin-top: 40px;
+	margin-top: 10px;
 	color: #979899;
 	font-family: 'Century Gothic',sans-serif;
 }
