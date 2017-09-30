@@ -5,6 +5,12 @@ body{
 	background-size: cover;
 }
 
+.topnav {
+    background: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+
 
 .box{
 	width: 550px;
