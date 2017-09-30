@@ -9,14 +9,14 @@ body{
   list-style: none;
   margin: 0 2px;
   padding: 0;
-  margin-left: 200px;
+  margin-left: 150px;
 }
 
 
 .topnav li {
    display: inline-block;
    padding: 5px 5px;
-   margin-right: 150px;
+   margin-right: 40px;
 }
 
 .whiteTitleBar {
