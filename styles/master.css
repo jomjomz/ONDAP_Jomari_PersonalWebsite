@@ -5,8 +5,7 @@
 
 
 body {
-    background-color: #203936;
-    background-image: url("images/overlay.png"), url("../images/bg-alt.jpg");
+ background-color: rgb(26,25,23);
     background-repeat: repeat, no-repeat;
     background-size: auto, 100% auto;
     background-position: top left, top center;
@@ -17,8 +16,7 @@ body {
 
 
 body {
-    background-color: #183026;
-    background-image: url("images/overlay.png"), url("../images/bg.jpg");
+    background-color: rgb(26,25,23);
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
     background-position: top left, center 0;
@@ -33,20 +31,15 @@ body {
     -webkit-text-stroke: 0.25px;
 }
 
+.background{
+    background-repeat: repeat;
+    
+}
+
+
 body.is-scroll {
     background-attachment: scroll, scroll;
     background-size: auto, 100% auto;
-}
-
-body.is-loading * {
-    -moz-transition: none !important;
-    -webkit-transition: none !important;
-    -ms-transition: none !important;
-    transition: none !important;
-    -moz-animation: none !important;
-    -webkit-animation: none !important;
-    -ms-animation: none !important;
-    animation: none !important;
 }
 
 .topnav ul {
@@ -96,12 +89,13 @@ body.is-loading * {
 
 .box {
     width: 400px;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, .5);
     padding: 30px;
     padding-top: 30px;
     text-align: center;
     margin: auto;
-    margin-top: 0px;
+    margin-right: 700px;
+    margin-top: 60px;
     margin-bottom: 20px;
     color: #979899;
     
@@ -123,7 +117,7 @@ body.is-loading * {
 }
 
 .color-white{
-    color: white;
+    color: #e8e8e8;
 }
 .color-sht{
     color: darkgrey;
@@ -177,17 +171,40 @@ body.is-loading * {
 #banner {
     margin-top: 200px;
 		position: relative;
-		color: #fff;
+		color: #232323;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		background: #232323 ;
 		padding: 5em 0 5em 0;
 		margin: 0;
-		background-size: 125% auto;
+		background-size: 200% auto;
 	}
 
+#banner.container {
+    float: right;
+    
+    
+}
 
 
+.social img {
+	background-color: rgb(26,25,23);
+	border-radius: 50%;
+}
 
+.social img:hover {
+	background-color: rgb(255,155,69);
+	
+}
+.social li {
+	display: inline-block;
+	padding: 0 10px 0 0;
+}
+
+.social ul {
+	padding: 30px 0 0 50px;
+	margin: 0 auto;
+	width: 240px;
+}
 
 
