@@ -94,12 +94,11 @@ body.is-scroll {
     padding-top: 30px;
     text-align: center;
     margin: auto;
-    margin-right: 700px;
+    float: left;
+    margin-left: 100px;
     margin-top: 60px;
     margin-bottom: 20px;
-    color: #979899;
-    
-
+    color: #979899;  
 }
 
 .box-img {
@@ -115,6 +114,66 @@ body.is-scroll {
     font-weight: 700;
     font-family: "FontAwesome" sans-serif;
 }
+
+
+
+.box2 {
+    width: 660px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    padding-top: 30px;
+    text-align: center;
+    margin: auto;
+    float: right;
+    margin-right: 50px;
+    margin-top: 180px;
+    margin-bottom: 20px;
+    opacity: 10%; 
+}
+
+.box-img2 {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.box2 h1 {
+    
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-family: "FontAwesome" sans-serif;
+}
+
+.parag {
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    
+    display: block;
+    opacity: 1;
+    font-weight: 400;
+    color: white;
+}
+
+.p-border {
+    border: 2px double #fff;
+    padding: 20px 30px;
+    background-size: contain;
+   
+}
+
+
+.box2 h2 {
+	font-family: futura-pt, Futura, "Helvetica Neue", Helvertica, Arial, sans-serif;
+	text-align: center;
+	color: rgb(255,255,255);
+	letter-spacing: 2px;
+	font-size: 50px;
+	margin: 8px 0 8px 0;
+    text-shadow: 2px 2px #000;
+}
+
 
 .color-white{
     color: #e8e8e8;
@@ -207,4 +266,8 @@ body.is-scroll {
 	width: 240px;
 }
 
+.borderB {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 
