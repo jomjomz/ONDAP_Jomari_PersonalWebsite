@@ -1,11 +1,11 @@
 @font-face {
-    font-family:"FontAwesome";
+    font-family: "FontAwesome";
     src: url(../fonts/FontAwesome-webfont.ttf);
 }
 
 
 body {
- background-color: rgb(26,25,23);
+    background-color: rgb(26, 25, 23);
     background-repeat: repeat, no-repeat;
     background-size: auto, 100% auto;
     background-position: top left, top center;
@@ -16,7 +16,7 @@ body {
 
 
 body {
-    background-color: rgb(26,25,23);
+    background-color: rgb(26, 25, 23);
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
     background-position: top left, center 0;
@@ -31,9 +31,9 @@ body {
     -webkit-text-stroke: 0.25px;
 }
 
-.background{
+.background {
     background-repeat: repeat;
-    
+
 }
 
 
@@ -69,7 +69,7 @@ body.is-scroll {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 10px 12px;
+    padding: 6px 8px;
     text-decoration: solid;
     font-size: 30px;
 }
@@ -98,7 +98,7 @@ body.is-scroll {
     margin-left: 100px;
     margin-top: 60px;
     margin-bottom: 20px;
-    color: #979899;  
+    color: #979899;
 }
 
 .box-img {
@@ -108,7 +108,7 @@ body.is-scroll {
 }
 
 .box h1 {
-    
+
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 700;
@@ -126,9 +126,9 @@ body.is-scroll {
     margin: auto;
     float: right;
     margin-right: 50px;
-    margin-top: 180px;
+    margin-top: 150px;
     margin-bottom: 20px;
-    opacity: 10%; 
+    opacity: 10%;
 }
 
 .box-img2 {
@@ -138,7 +138,7 @@ body.is-scroll {
 }
 
 .box2 h1 {
-    
+
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 700;
@@ -149,7 +149,7 @@ body.is-scroll {
     text-align: center;
     font-size: 18px;
     text-decoration: none;
-    
+
     display: block;
     opacity: 1;
     font-weight: 400;
@@ -160,25 +160,26 @@ body.is-scroll {
     border: 2px double #fff;
     padding: 20px 30px;
     background-size: contain;
-   
+
 }
 
 
 .box2 h2 {
-	font-family: futura-pt, Futura, "Helvetica Neue", Helvertica, Arial, sans-serif;
-	text-align: center;
-	color: rgb(255,255,255);
-	letter-spacing: 2px;
-	font-size: 50px;
-	margin: 8px 0 8px 0;
+    font-family: futura-pt, Futura, "Helvetica Neue", Helvertica, Arial, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin: 8px 0 8px 0;
     text-shadow: 2px 2px #000;
 }
 
 
-.color-white{
+.color-white {
     color: #e8e8e8;
 }
-.color-sht{
+
+.color-sht {
     color: darkgrey;
 }
 
@@ -229,45 +230,65 @@ body.is-scroll {
 
 #banner {
     margin-top: 200px;
-		position: relative;
-		color: #232323;
-		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
-		text-align: center;
-		background: #232323 ;
-		padding: 5em 0 5em 0;
-		margin: 0;
-		background-size: 200% auto;
-	}
+    position: relative;
+    color: #232323;
+    text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+    text-align: center;
+    background: #232323;
+    padding: 5em 0 5em 0;
+    margin: 0;
+    background-size: 200% auto;
+}
 
 #banner.container {
     float: right;
-    
-    
+
+
 }
 
 
 .social img {
-	background-color: rgb(26,25,23);
-	border-radius: 50%;
+    background-color: rgb(26, 25, 23);
+    border-radius: 50%;
 }
 
 .social img:hover {
-	background-color: rgb(255,155,69);
-	
+    background-color: rgb(109, 109, 109);
+
 }
+
 .social li {
-	display: inline-block;
-	padding: 0 10px 0 0;
+    display: inline-block;
+    padding: 0 10px 0 0;
 }
 
 .social ul {
-	padding: 30px 0 0 50px;
-	margin: 0 auto;
-	width: 240px;
+    padding: 30px 0 0 50px;
+    margin: 0 auto;
+    width: 240px;
 }
 
 .borderB {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+input.MyButton {
+    width: 200px;
+    height: 50px;
+    padding: 0px;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 80%;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+input.MyButton:hover {
+    color: gray;
+    background: rgba(0, 0, 0, 1);
+    border: 0px solid rgba(0, 0, 0, 0.4);
+}
