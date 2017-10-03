@@ -160,7 +160,8 @@ body.is-scroll {
     border: 2px double #fff;
     padding: 20px 30px;
     background-size: contain;
-
+    text-align: justify;
+    line-height: normal;
 }
 
 
