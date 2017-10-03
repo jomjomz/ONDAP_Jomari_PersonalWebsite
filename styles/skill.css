@@ -1,21 +1,167 @@
-<h1>My Skills</h1>
+@font-face {
+    font-family: "FontAwesome";
+    src: url(../fonts/FontAwesome-webfont.ttf);
+}
 
-<p>HTML</p>
-<div class="container">
-  <div class="skills html">90%</div>
-</div>
 
-<p>CSS</p>
-<div class="container">
-  <div class="skills css">80%</div>
-</div>
+body {
+    background-color: rgb(26, 25, 23);
+    background-repeat: repeat, no-repeat;
+    background-size: auto, 100% auto;
+    background-position: top left, top center;
+    background-attachment: scroll, scroll;
+    font-size: 14pt;
+}
 
-<p>JavaScript</p>
-<div class="container">
-  <div class="skills js">65%</div>
-</div>
 
-<p>PHP</p>
-<div class="container">
-  <div class="skills php">60%</div>
-</div>
+
+body {
+    background-color: rgb(26, 25, 23);
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    background-position: top left, center 0;
+    background-attachment: fixed, fixed;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18pt;
+    line-height: 1.75em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #3a3939;
+    text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
+    -webkit-text-stroke: 0.25px;
+}
+
+.background {
+    background-repeat: repeat;
+
+}
+
+
+body.is-scroll {
+    background-attachment: scroll, scroll;
+    background-size: auto, 100% auto;
+}
+
+
+* {
+    box-sizing: border-box
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skill {
+    float: left;
+    width: 40%;
+}
+
+.skill2 {
+    margin-top: 80px;
+    float: right;
+    width: 40%;
+}
+
+.skills {
+    text-align: right;
+    padding-right: 10px;
+    line-height: 30px;
+    margin-top: 0px;
+    color: white;
+}
+
+.h1 {
+    margin-top: 0px;
+    text-align: right;
+}
+
+.topnav ul {
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    margin-left: 30px;
+}
+
+
+.topnav li {
+    display: inline-block;
+    padding: 5px 5px;
+    margin-right: 40px;
+}
+
+.topnav {
+    background: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 6px 8px;
+    text-decoration: solid;
+    font-size: 30px;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.skillcontainer {
+    background-color: rgba(0, 0, 0, 0.4) ;
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    text-align: left;
+    margin-top: 600px;   
+    margin: auto;
+    float: center;
+    color: white;
+}
+
+.html {
+    width: 79%;
+    background-color: #4CAF50;
+}
+
+.css {
+    width: 69%;
+    background-color: #2196F3;
+}
+
+.c {
+    width: 47%;
+    background-color: #f44336;
+}
+
+.csgo {
+    width: 67%;
+    background-color: #8e3080;
+}
+
+.dota {
+    width: 55%;
+    background-color: #8e5070;
+}
+
+.photoshop {
+    width: 82%;
+    background-color: #3e5070;
+}
+
+.java {
+    width: 58%;
+    background-color: #7e3070;
+}
