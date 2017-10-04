@@ -1,0 +1,42 @@
+.achieve-list ul {
+	list-style-type: none;
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.achieve-list h3 {
+	font-family: futura-pt, Futura, "Helvetica Neue", Helvertica, Arial, sans-serif ;
+	font-weight: bold;
+	font-size: 20px;
+    line-height: normal;
+	letter-spacing: 2px;
+	color: rgb(26,25,23);
+	margin-top: 0px;
+}
+
+.achieve-list p {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	text-transform: capitalize;
+	font-size: 16px;
+	margin-bottom: 0px;
+    padding-bottom: 20px;
+    line-height: normal;
+}
+
+.achieve-list span {
+	margin-left: 100px;
+}
+
+.achieve-list img, .detail {
+	display: inline-block;
+}
+
+.achieve-list img {
+	border-radius: 50%;
+    height: 155px;
+    width: 153px;
+    margin-top: 30px;
+   
+}
