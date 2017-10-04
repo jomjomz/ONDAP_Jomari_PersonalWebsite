@@ -1,8 +1,9 @@
 .achieve-list ul {
 	list-style-type: none;
-	width: 800px;
+	width: auto;
 	margin: 0 auto;
 	padding-bottom: 10px;
+    text-align: center;
 }
 
 .achieve-list h3 {
@@ -13,6 +14,7 @@
 	letter-spacing: 2px;
 	color: rgb(26,25,23);
 	margin-top: 0px;
+    text-align: center;
 }
 
 .achieve-list p {
@@ -23,6 +25,7 @@
 	margin-bottom: 0px;
     padding-bottom: 20px;
     line-height: normal;
+    text-align: center;
 }
 
 .achieve-list span {
@@ -38,5 +41,7 @@
     height: 155px;
     width: 153px;
     margin-top: 30px;
-   
+    display: block;
+    margin-left: 44%;
+       
 }
